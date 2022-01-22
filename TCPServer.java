@@ -22,7 +22,8 @@ public class TCPServer {
         for(int i = 0; i < n; i++){
           System.out.print("X");
         }
-         System.out.print('\n\n');
+         System.out.print('\n');
+         System.out.print('\n');
              
         client.close(); //close connection to client
       }
