@@ -9,7 +9,7 @@ public class TCPClientStructuredData {
         int random = (int)(Math.random()*10+1);
 
         try{
-        connection = InetAddress.getByName("10.10.10.0);
+        connection = InetAddress.getByName("10.10.10.0");
         client = new Socket(connection, 9999);
 
         dos = new DataOutputStream(client.getOutputStream());
